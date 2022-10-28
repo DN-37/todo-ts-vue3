@@ -8,7 +8,6 @@ const routes: Array<RouteRecordRaw> = [
     name: "Home",
     component: Home,
   },
-
   {
     path: "/add_task",
     name: "AddTask",

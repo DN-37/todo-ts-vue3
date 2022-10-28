@@ -22,8 +22,8 @@ export default createStore({
   mutations: {
     setTask: (state, task) => state.tasks.push(task),
     deleteTask(state, task) {
-      let taskIndex = findIndex(state.tasks, task);
-      state.tasks.splice(taskIndex, ++taskIndex);
+      const taskIndex = findIndex(state.tasks, task);
+      state.tasks.splice(taskIndex, 1);
     },
     completeTask(state, task) {
       const taskIndex = findIndex(state.tasks, task);

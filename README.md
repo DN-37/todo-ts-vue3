@@ -1,5 +1,7 @@
 # todo-ts-vue3
 
+<a href="https://todo-ts-vue3.netlify.app/" target="_blank"> Приложение находится здесь
+
 ## Project setup
 ```
 npm install
